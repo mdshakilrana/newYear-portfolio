@@ -6,8 +6,8 @@
     font-family: 'Hind Siliguri', sans-serif;
 }
 .btn-primary{
-    background-color: #FF5959;
-    color: white;
+    background-color: #090de7;
+    color: rgb(251, 251, 252);
     font-size: 20px;
     border: none;
     border-radius: 5px;
@@ -28,10 +28,10 @@
 }
 #banner{
     width: 40%;
-    text-align: center;
+    text-align: right;
     margin: 0px auto;
     padding: 150px 0;
-    color: rgb(12, 235, 186);
+    color: rgb(246, 250, 249);
     left: 845;
     position: flex;
     
@@ -45,4 +45,191 @@
     line-height: 25px;
     margin: 30px;
 }
+#main{
+    width: 70%;
+    margin: 0 auto 100px;
+}
+section{
+    margin-top: 100px;
+}
+#myfailor{
+    text-align: center;
+    display: left;
+    padding: 100px;
+}
+.section-title{
+    font-size: 36px;
+    color:rgb(10, 10, 10);
+    
+}
+.sub-section-title{
+    font-size: 36px;
+    color:rgb(241, 238, 238);
+    
+}
+.section-desc{
+    font-size: 18px;
+    font-weight: 500;
+    color: #f7f0f0;
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+}
+.section-description{
+    color: #f7f2f2;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
  
+.blog-container{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-content{
+    width: 48%;
+    position: absolute;
+
+height: 400px;
+left: 862px;
+top: 1178px;
+}
+.blog-img{
+    width: 50%;
+    display: block;
+    overflow: hidden;
+    height: 350px;
+}
+.blog-img:hover .donation-img{
+    transform: scale(1.1);
+}
+.blog-title{
+    font-size: 36px;
+    color: #121212;
+    line-height: 46px;
+}
+.blog-description{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.donation-img{
+    position: absolute;
+width: 569px;
+height: 723.3px;
+left: 203px;
+top: 800px;
+
+}
+.row-reverse{
+    flex-direction: row-reverse;
+    margin-top: 100px;
+}
+.skills-plan{
+    position: absolute;
+width: 691px;
+height: 130px;
+left: 750px;
+top: 1600px;
+}
+.class-container{
+    margin-top: 600px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card{
+    width: 30%;
+    text-align: left;
+    padding: 20px;
+    transition: .4s;
+    border-radius: 5px;
+    
+}
+.card:hover{
+    box-shadow: 5px 8px 8px rgb(245, 242, 242);
+}
+.card-img{
+    margin: 20px 0;
+}
+.card-title{
+    font-size: 25px;
+}
+.card-description{
+    color: #707070;
+    line-height: 24px;
+    margin: 10px 0 20px;
+    font-weight: 500;
+}
+.card1{
+    background-color: #EDF5F6;
+    
+}
+.card2{
+    background-color: #FFEEEE;
+}
+.card3{
+    background-color: #FFF4D6;
+}
+#watcher{
+    background: url("../images/watch.png"),linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    
+    
+     
+}
+#sub-banner{
+    width: 40%;
+    text-align: left;
+    margin: 0px auto;
+    padding: 100px 0;
+    color: rgb(246, 250, 249);
+    left: 100px;
+    position: left;
+    
+}
+#footer{
+    position: absolute;
+    width: 1600px;
+    height: 577px;
+    left: 0px;
+    top: 2651.96px;
+    
+    
+    
+    
+}
+.footer-title{
+    font-family: 'Lobster', cursive;
+    color:#FF5959;
+    transition: .4s;
+}
+
+.footer-title:hover{
+    color: white;
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #0e0e0e;
+    padding: 130px 200px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 64px;
+}
+.contact a{
+text-decoration: none;
+}
